@@ -1,7 +1,9 @@
 #google_translate_element.eet_top_left {position:fixed;top:0;left:45px;z-index:9999;}
 #google_translate_element.eet_top_right {position:fixed;top:0;right:45px;z-index:9999;}
+#google_translate_element.eet_top_center {position:fixed;top:0;left: 50%;transform: translate(-50%, 0);;z-index:9999;}
 #google_translate_element.eet_bottom_left {position:fixed;bottom:0;left:45px;z-index:9999;}
 #google_translate_element.eet_bottom_right {position:fixed;bottom:0;right:45px;z-index:9999;}
+#google_translate_element.eet_bottom_center {position:fixed;bottom:0;left: 50%;transform: translate(-50%, 0);;z-index:9999;}
 
 
 #google_translate_element .goog-te-combo{background-color:#FFF;font-size:16px;height: auto;overflow: hidden;-moz-transition: all 1s;-o-transition: all 1s;-webkit-transition: all 1s;transition: all 1s;width:180px;color:#000;padding:6px;outline:#88bfff;border:1px solid #ccc;}
