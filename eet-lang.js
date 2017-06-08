@@ -6,7 +6,7 @@ if(!window.jQuery){
 }
 
 $(document).ready(function($){
-	var BasePath = 'http://shopify.anontech.info/eet';
+	var BasePath = 'https://anontech.github.io';
 	
 	
 	if(_EETJsonSettings.ShowLanguage){ //true
