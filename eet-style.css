@@ -1,0 +1,21 @@
+#google_translate_element.eet_top_left {position:fixed;top:0;left:45px;z-index:9999;}
+#google_translate_element.eet_top_right {position:fixed;top:0;right:45px;z-index:9999;}
+#google_translate_element.eet_bottom_left {position:fixed;bottom:0;left:45px;z-index:9999;}
+#google_translate_element.eet_bottom_right {position:fixed;bottom:0;right:45px;z-index:9999;}
+
+
+#google_translate_element .goog-te-combo{background-color:#FFF;font-size:16px;height: auto;overflow: hidden;-moz-transition: all 1s;-o-transition: all 1s;-webkit-transition: all 1s;transition: all 1s;width:180px;color:#000;padding:6px;outline:#88bfff;border:1px solid #ccc;}
+.goog-te-combo:active, .goog-te-combo:focus {border-color:#88bfff;}
+#google_translate_element:hover .goog-te-combo {-moz-transition: all 1s;-o-transition: all 1s;-webkit-transition: all 1s;transition: all 1s;}
+select.goog-te-combo {border-radius:4px !important;-webkit-border-radius:4px !important;-moz-border-radius:4px !important;}
+
+/*Hide Top translaiton bar and height*/
+.goog-te-banner-frame{display:none;}
+.translated-ltr body, .translated-rtl body{top:0!important}
+/*Hide Power by google translation*/
+.goog-logo-link {display:none !important;}
+.goog-te-gadget{color: transparent!important;height:45px;}
+/*Hide original text tooltips*/
+.goog-tooltip {display:none!important;}
+.goog-tooltip:hover {display: none !important;}
+.goog-text-highlight {background-color: transparent !important;border: none !important;box-shadow: none !important;}
