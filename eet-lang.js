@@ -15,7 +15,7 @@ $(document).ready(function($){
 			$("head").before('<div id="google_translate_element" class="'+_EETJsonSettings.Position+'"></div>');
 		}
 
-		$("head").append('<link rel="stylesheet" href="'+BasePath+'/eet-style.css" type="text/css" />');
+		$("head").append('<link rel="stylesheet" href="'+BasePath+'/eet-style.min.css" type="text/css" />');
 		$("head").append('<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>');
 
 
@@ -31,7 +31,7 @@ $(document).ready(function($){
 
 		if (_EETJsonSettings.MultiLingual) {gConfigString +='multilanguagePage: true';}
 
-		
+
 		var __function = "function googleTranslateElementInit() { new google.translate.TranslateElement({" +gConfigString +"}, 'google_translate_element');	}";
 
 
