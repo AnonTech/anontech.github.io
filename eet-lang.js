@@ -31,7 +31,7 @@ $(document).ready(function($){
 
 		if (_EETJsonSettings.MultiLingual) {gConfigString +='multilanguagePage: true';}
 
-		console.log("gConfigString=" + gConfigString);
+		
 		var __function = "function googleTranslateElementInit() { new google.translate.TranslateElement({" +gConfigString +"}, 'google_translate_element');	}";
 
 
