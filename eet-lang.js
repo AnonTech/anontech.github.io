@@ -11,8 +11,8 @@ $(document).ready(function($){
 	
 	if(_EETJsonSettings.ShowLanguage){ //true
 
-		if(!$("#google_translate_element").length){ //if not user preset
-			$("head").before('<div id="google_translate_element" class="'+_EETJsonSettings.Position+'"></div>');
+		if(!$("#exico_translator_element").length){ //if not user preset
+			$("head").before('<div id="exico_translator_element" class="'+_EETJsonSettings.Position+'"></div>');
 		}
 
 		$("head").append('<link rel="stylesheet" href="'+BasePath+'/eet-style.min.css" type="text/css" />');
@@ -32,7 +32,7 @@ $(document).ready(function($){
 		if (_EETJsonSettings.MultiLingual) {gConfigString +='multilanguagePage: true';}
 
 
-		var __function = "function googleTranslateElementInit() { new google.translate.TranslateElement({" +gConfigString +"}, 'google_translate_element');	}";
+		var __function = "function googleTranslateElementInit() { new google.translate.TranslateElement({" +gConfigString +"}, 'exico_translator_element');	}";
 
 
 		var script = document.createElement("script");
