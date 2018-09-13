@@ -9,7 +9,7 @@ $(document).ready(function($){
 	var BasePath = 'https://anontech.github.io';
 	
 	
-	if(_EETJsonSettings.ShowLanguage){ //true
+	if(typeof _EETJsonSettings!=='undefined' && _EETJsonSettings.ShowLanguage){ //true
 
 		if(!$("#exico_translator_element").length){ //if not user preset
 			$("head").before('<div id="exico_translator_element" class="'+_EETJsonSettings.Position+'"></div>');
